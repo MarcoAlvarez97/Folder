@@ -1,0 +1,107 @@
+/** PRODUCTO **/
+.producto {
+  transition: all 0.3s linear;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+  transition: all 0.3s linear;
+}
+.producto {
+  opacity: 0;
+  animation: fade 0.6s ease-in forwards, slide-up 1s ease-in-out;
+}
+/** GRAFICO **/
+
+.grafico {
+  opacity: 0;
+  animation: fade 0.6s ease-in forwards, slide-up 1s ease-in-out;
+}
+
+/** BLQUES **/
+
+.bloque {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slide-up 1.3s ease-in-out;
+}
+
+.bloque:nth-child(1) {
+  animation-delay: 0.7s;
+}
+.bloque:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.bloque:nth-child(3) {
+  animation-delay: 0.5s;
+}
+.bloque:nth-child(4) {
+  animation-delay: 0.7s;
+}
+
+/* KEY */
+
+@keyframes slide-down {
+  from {
+    transform: translateY(10rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(10rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-right {
+  from {
+    transform: translateX(10rem);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(-10rem);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/**  NOSOTROS **/
+
+.nosotros__contenido {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slide-left 0.9s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+.nosotros__imagen {
+  opacity: 0;
+  animation: fade 1s ease-in forwards, slide-right 1.3s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+/** FORMULARIO **/
+
+.formulario__submit:hover {
+  cursor: pointer;
+  background-color: var(--secundarioOscuro);
+}
