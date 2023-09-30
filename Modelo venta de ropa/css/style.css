@@ -75,7 +75,7 @@ h3 {
 .footer__texto {
   font-family: var(--fuentePrincipal);
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 /** Navegacion **/
 .navegacion {
