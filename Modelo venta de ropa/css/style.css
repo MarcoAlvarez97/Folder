@@ -163,6 +163,10 @@ h3 {
   text-align: center;
 }
 
+.bloque p {
+  margin: 0 1rem;
+}
+
 .bloque__titulo {
   margin: 0;
 }
