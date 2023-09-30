@@ -47,3 +47,23 @@
     column-gap: 2rem;
   }
 }
+
+/** NAVBAR **/
+
+@media (min-width: 768px) {
+  .navegacion {
+    max-width: 100%;
+  }
+}
+
+/** PRODUCTO **/
+
+@media screen and (max-width: 768px) {
+  .formulario {
+    grid-template-columns: 1fr; /* Cambia a una sola columna */
+  }
+
+  .formulario__submit {
+    grid-column: 1;
+  }
+}
