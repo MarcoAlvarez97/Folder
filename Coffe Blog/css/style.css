@@ -97,7 +97,7 @@ img {
   justify-content: space-between;
   align-items: center;
   height: 6.5rem;
-  padding: 1rem 0;
+  padding: 0 3rem;
   background: linear-gradient(to bottom, #886750, #292021);
 
   /* TODO: Acompaña la barra */
@@ -118,7 +118,7 @@ img {
   color: var(--white);
 }
 
-#menu-toggle,
+#navbar__toggle,
 .menu {
   display: none;
 }

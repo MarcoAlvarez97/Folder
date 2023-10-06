@@ -28,7 +28,7 @@
     cursor: pointer;
   }
 
-  #menu-toggle:checked + .navbar__list {
+  #navbar__toggle:checked + .navbar__list {
     display: flex;
   }
 
