@@ -44,6 +44,19 @@
     opacity: 1;
   }
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
+}
+/** HEADER **/
+.logo {
+  transition: all 0.5s linear;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  transition: all 0.5s linear;
+}
 
 /** NAVBAR **/
 
