@@ -1,0 +1,45 @@
+/** NAVEGACION **/
+
+@media (min-width: 768px) {
+  .navbar {
+    gap: 1rem;
+  }
+
+  .navbar__list {
+    position: absolute;
+    top: 6.5rem;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    flex-direction: column;
+    background: #3f2b1c;
+    border: 2px solid #e0850c;
+    border-top: 0;
+    border-radius: 0px 0px 1.5rem 1.5rem;
+    padding: 4.5rem 3rem;
+    gap: 2.5rem;
+    z-index: 2;
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    order: 2;
+    cursor: pointer;
+  }
+
+  #menu-toggle:checked + .navbar__list {
+    display: flex;
+  }
+
+  /** NAVBAR **/
+  .navbar__link {
+    transition: all 0.3s ease;
+    border-radius: 5rem;
+    width: 100%;
+  }
+
+  .navbar__link:hover {
+    background-color: #886750;
+  }
+}

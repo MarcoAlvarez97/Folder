@@ -13,12 +13,25 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* 1rem = 10px*/
+  background: #1e130c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #8b6854,
+    #1e130c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #63493c,
+    #1e130c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -79,15 +92,81 @@ img {
 /** HEADER **/
 
 .header {
-  background-image: url(../img/banner.jpg);
-  height: 60rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.5rem;
+  padding: 1rem 0;
+  background: linear-gradient(to bottom, #886750, #292021);
+
+  /* TODO: Acompaña la barra */
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
 
-.header__text {
+.logo {
+  margin-left: 3rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+/** MENU HAMBURGUESA **/
+
+.menu-icon {
   color: var(--white);
+}
+
+#menu-toggle,
+.menu {
+  display: none;
+}
+
+/** NAVEGACION **/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar__list {
+  list-style-type: none;
+  display: flex;
+  gap: 3rem;
+  margin-right: 2.3rem;
+}
+
+.navbar__link {
   text-align: center;
-  margin-top: 5rem;
+  display: block;
+  font-size: 1.8rem;
+  color: var(--white);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/** HERO **/
+
+#hero {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60rem;
+  width: 100%;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
