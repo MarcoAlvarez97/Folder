@@ -85,3 +85,9 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.header__text {
+  color: var(--white);
+  text-align: center;
+  margin-top: 5rem;
+}
