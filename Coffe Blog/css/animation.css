@@ -67,6 +67,9 @@
     transform: translateZ(-70rem) translateY(-10rem);
     opacity: 0;
   }
+  40% {
+    opacity: 0.6;
+  }
   100% {
     transform: translateZ(0) translateY(0);
     opacity: 1;
