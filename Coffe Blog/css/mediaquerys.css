@@ -1,9 +1,6 @@
 /** NAVEGACION **/
 
-@media (min-width: 768px) {
-  .navbar {
-    gap: 1rem;
-  }
+@media (max-width: 768px) {
   .navbar__list {
     position: absolute;
     top: 6.5rem;
@@ -20,9 +17,6 @@
     z-index: 2;
     display: none;
   }
-  .navbar__link {
-    font-size: 1.8rem;
-  }
 
   .menu {
     display: flex;
@@ -33,19 +27,17 @@
   #navbar__toggle:checked + .navbar__list {
     display: flex;
   }
+}
 
-  /** NAVBAR **/
+@media (min-width: 768px) {
+  .navbar {
+    gap: 1rem;
+  }
   .navbar__link {
-    transition: all 0.5s ease;
-    border-radius: 5rem;
-    width: 100%;
+    font-size: 1.8rem;
   }
 
-  .navbar__link:hover {
-    background-color: #886750;
-  }
   /** CONTENIDO PRINCIPAL **/
-
   .contenido-principal {
     display: grid;
     grid-template-columns: 2fr 1fr;

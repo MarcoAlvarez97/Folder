@@ -60,26 +60,40 @@ html {
 
 /** NAVBAR **/
 
-.navbar__link {
-  position: relative;
-  padding: 0;
+@media (max-width: 786px) {
+  .navbar__link {
+    transition: all 0.5s ease;
+    border-radius: 5rem;
+    width: 100%;
+  }
+
+  .navbar__link:hover {
+    background-color: #886750;
+  }
 }
 
-.navbar__link::after {
-  content: "";
-  height: 0.2rem;
-  width: 100%;
-  background: white;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+@media (min-width: 768px) {
+  .navbar__link {
+    position: relative;
+    padding: 0;
+  }
 
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.15s ease;
-}
+  .navbar__link::after {
+    content: "";
+    height: 0.2rem;
+    width: 100%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 
-.navbar__link:hover::after {
-  transform-origin: bottom left;
-  transform: scaleX(1);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.15s ease;
+  }
+
+  .navbar__link:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+  }
 }
