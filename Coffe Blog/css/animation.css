@@ -184,6 +184,11 @@ html {
 }
 
 /** ENTRADAS **/
+.blog h3 {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slide-up 0.9s ease-in-out;
+  animation-delay: 0.4s;
+}
 
 .sidebar {
   opacity: 0;
@@ -191,25 +196,17 @@ html {
   animation-delay: 0.2s;
 }
 
-.blog {
+.entrada {
   opacity: 0;
   animation: fade 0.8s ease-in forwards, slide-left 0.9s ease-in-out;
   animation-delay: 0.3s;
 }
 
-.entrada {
-  opacity: 0;
-  animation: fade 0.8s ease-in forwards, slide-up 1.3s ease-in-out;
-}
-
-.entrada:nth-child(1) {
-  animation-delay: 0.5ms;
-}
 .entrada:nth-child(2) {
-  animation-delay: 0.7s;
+  animation-delay: 0.5s;
 }
 .entrada:nth-child(3) {
-  animation-delay: 0.9s;
+  animation-delay: 0.7s;
 }
 
 .entrada img {

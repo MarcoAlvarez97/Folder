@@ -191,6 +191,7 @@ main {
 .entrada:last-of-type {
   border: none;
   margin-bottom: 0;
+  animation-delay: 0.9s;
 }
 
 .entrada img {
