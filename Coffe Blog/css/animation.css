@@ -163,8 +163,7 @@ html {
 /** HERO **/
 
 #hero h2 {
-  animation: fade 0.8s ease-in forwards,
-    tracking-in-expand-forward-top 0.9s ease-in-out;
+  animation: fade 0.8s ease-in forwards, blur-in-expand 0.9s ease-in-out;
 }
 
 #hero p {
