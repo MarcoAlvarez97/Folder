@@ -59,6 +59,7 @@ h2,
 h3,
 h4 {
   font-family: var(--Headingfont);
+  line-height: 1.2;
 }
 
 h1 {
@@ -173,6 +174,11 @@ main {
 }
 
 /** INFO **/
+
+.blog h3 {
+  margin: 2rem 0;
+}
+
 .blog,
 .sidebar {
   color: var(--white);
@@ -218,4 +224,38 @@ main {
 
 .btn--secundario {
   background-color: #271f20;
+}
+
+/** SIDEBAR **/
+
+.sidebar h3 {
+  margin: 2rem 0;
+}
+
+.cursos {
+  list-style: none;
+  margin-top: 3rem;
+}
+
+.widget-curso {
+  border-bottom: 0.1rem solid var(--gray);
+  margin-bottom: 2rem;
+}
+.widget-curso:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
+.widget-curso__label {
+  font-family: var(--Headingfont);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.widget-curso__info {
+  font-weight: 400;
+}
+
+.widget-curso__label,
+.widget-curso__info {
+  font-size: 2rem;
 }
