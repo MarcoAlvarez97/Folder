@@ -112,17 +112,6 @@ img {
   height: 6rem;
 }
 
-/** MENU HAMBURGUESA **/
-
-.menu-icon {
-  color: var(--white);
-}
-
-#navbar__toggle,
-.menu {
-  display: none;
-}
-
 /** NAVEGACION **/
 
 .navbar {
@@ -142,8 +131,19 @@ img {
 .navbar__link {
   text-align: center;
   display: block;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: var(--white);
+}
+
+/** MENU HAMBURGUESA **/
+
+.menu-icon {
+  color: var(--white);
+}
+
+#navbar__toggle,
+.menu {
+  display: none;
 }
 
 main {
@@ -169,4 +169,14 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+/** INFO **/
+.blog,
+.sidebar {
+  color: var(--white);
+}
+
+.a-text {
+  font-weight: 400;
 }

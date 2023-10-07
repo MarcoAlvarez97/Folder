@@ -36,10 +36,9 @@
       <a class="logo" href="index.html"
         ><img src="img/logo.png" alt="Logotipo" />
       </a>
-
       <nav class="navbar">
         <label for="navbar__toggle" class="menu">
-          <i class="fas fa-bars fa-xl menu-icon"></i>
+          <i class="fa-solid fa-bars fa-xl menu-icon"></i>
         </label>
         <input type="checkbox" id="navbar__toggle" />
 
@@ -68,10 +67,74 @@
     <!--* MAIN SECTION-->
     <main>
       <section id="hero">
-        <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+        <h2 class="no-margin hero-title">Blog de café con consejos y cursos</h2>
         <p class="no-margin">
           Aprende distintas recetas y tipos de cafe de todo el mundo.
         </p>
+      </section>
+
+      <!--* INFO  -->
+      <section class="container contenido-principal">
+        <div class="blog">
+          <h3>Nuestro Blog</h3>
+          <!-- PRIMER ARTICULO -->
+          <article class="entrada">
+            <div class="entrada__imagen">
+              <img src="img/blog1.jpg" alt="Imagen de blog" />
+            </div>
+
+            <div class="entrada__contenido">
+              <h4 class="no-margin">Tipos de Grano de Café</h4>
+              <p class="a-text">
+                Aca podran los distintos tipos de grano de cafe y de donde
+                provienen
+                <a href="pages/entrada.html" class="btn btn--primario"
+                  >Leer Entrada</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <!-- SEGUNDO ARTICULO -->
+          <article class="entrada">
+            <div class="entrada__imagen">
+              <img src="img/blog2.jpg" alt="Imagen de blog" />
+            </div>
+
+            <div class="entrada__contenido">
+              <h4 class="no-margin">Tres Deliciosas Recetas de Café</h4>
+              <p class="a-text">
+                Aca encontraran tres recetas de cafe muy deliciosas que puedes
+                probar y compartir con alguien cercano
+                <a href="pages/entrada.html" class="btn btn--primario"
+                  >Leer Entrada</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <!-- TERCER ARTICULO -->
+          <article class="entrada">
+            <div class="entrada__imagen">
+              <img src="img/blog3.jpg" alt="Imagen de blog" />
+            </div>
+
+            <div class="entrada__contenido">
+              <h4 class="no-margin">Beneficios del Café</h4>
+              <p class="a-text">
+                Te estaremos contando todos los beneficios que tiene el cafe,
+                tanto nutricionalmente como emocionalmente.
+                <a href="pages/entrada.html" class="btn btn--primario"
+                  >Leer Entrada</a
+                >
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <aside class="sidebar">
+          <h3>Nuestros Cursos y Talleres</h3>
+        </aside>
       </section>
     </main>
   </body>
