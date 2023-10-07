@@ -171,3 +171,52 @@ html {
   animation: fade 0.8s ease-in forwards, blur-in-expand 0.9s ease-in-out;
   animation-delay: 0.3s;
 }
+
+/** BOTON **/
+
+.btn--primario {
+  transition: all 0.5s ease;
+}
+
+.btn--primario:hover {
+  background-color: var(--sombreado);
+  transition: all 0.5s ease;
+}
+
+/** ENTRADAS **/
+
+.sidebar {
+  opacity: 0;
+  animation: fade 1s ease-in forwards, slide-right 1.3s ease-in-out;
+  animation-delay: 0.2s;
+}
+
+.blog {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slide-left 0.9s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+.entrada {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slide-up 1.3s ease-in-out;
+}
+
+.entrada1 {
+  animation-delay: 0.5ms;
+}
+.entrada2 {
+  animation-delay: 0.7s;
+}
+.entrada3 {
+  animation-delay: 0.9s;
+}
+
+.entrada img {
+  transition: all 0.3s linear;
+}
+
+.entrada img:hover {
+  transform: scale(1.03);
+  transition: all 0.3s linear;
+}

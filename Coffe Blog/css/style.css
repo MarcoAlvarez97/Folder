@@ -8,6 +8,8 @@
   --first: #784d3c;
   --white: #ffffff;
   --black: #000000;
+  --gray: #98aeb6;
+  --sombreado: #9c8481;
 }
 
 html {
@@ -178,4 +180,37 @@ main {
 
 .a-text {
   font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.entrada {
+  border-bottom: 0.1rem solid var(--gray);
+  margin-bottom: 2rem;
+}
+
+.entrada:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
+
+.entrada img {
+  border-radius: 1rem;
+}
+
+/** BOTON  **/
+
+.btn {
+  display: block;
+  font-family: var(--Headingfont);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+.btn--primario {
+  background-color: var(--black);
 }
