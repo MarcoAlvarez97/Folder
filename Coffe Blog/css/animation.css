@@ -61,9 +61,6 @@
   }
 }
 
-.tracking-in-expand-forward-top {
-  animation: tracking-in-expand-forward-top 0.5s linear both;
-}
 @keyframes tracking-in-expand-forward-top {
   0% {
     letter-spacing: -0.2rem;
