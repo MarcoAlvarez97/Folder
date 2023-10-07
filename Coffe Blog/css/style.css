@@ -215,3 +215,7 @@ main {
 .btn--primario {
   background-color: var(--black);
 }
+
+.btn--secundario {
+  background-color: #271f20;
+}

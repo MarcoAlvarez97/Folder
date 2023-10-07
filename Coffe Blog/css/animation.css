@@ -178,7 +178,8 @@ html {
   transition: all 0.5s ease;
 }
 
-.btn--primario:hover {
+.btn--primario:hover,
+.btn--secundario:hover {
   background-color: var(--sombreado);
   transition: all 0.5s ease;
 }
