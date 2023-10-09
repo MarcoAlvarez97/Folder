@@ -122,6 +122,9 @@ html {
   .navbar__link:hover {
     background-color: #886750;
   }
+  .navbar-list-nosotros a:hover {
+    background-color: #b8c9c4;
+  }
 }
 
 @media (min-width: 768px) {
@@ -217,4 +220,16 @@ html {
 .entrada img:hover {
   transform: scale(1.03);
   transition: all 0.3s linear;
+}
+
+/** --------PAGINA NOSOTROS -------**/
+
+#hero-nosotros h2 {
+  animation: fade 0.8s ease-in forwards, blur-in-expand 0.9s ease-in-out;
+}
+
+#hero-nosotros p {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, blur-in-expand 0.9s ease-in-out;
+  animation-delay: 0.3s;
 }

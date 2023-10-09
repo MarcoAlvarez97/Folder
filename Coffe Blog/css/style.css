@@ -284,3 +284,37 @@ main {
   padding: 0;
   text-align: center;
 }
+/** -------------- PAGINA NOSOTROS ----------------**/
+
+#nosotros-page {
+  background-color: #abc2ba;
+}
+
+/** HEADER **/
+
+.navbar-nosotros {
+  background-color: ;
+}
+
+.header-nosotros {
+  background: linear-gradient(to bottom, #d3b895, #abc2ba);
+}
+
+#hero-nosotros {
+  background-image: url("../img/nosotros.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60rem;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-nosotros {
+  background: linear-gradient(to bottom, #abc2ba, #d3b895);
+}
