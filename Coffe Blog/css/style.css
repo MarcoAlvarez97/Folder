@@ -259,3 +259,28 @@ main {
 .widget-curso__info {
   font-size: 2rem;
 }
+
+/** FOOTER **/
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  padding: 0 3rem;
+  background: linear-gradient(to bottom, #886750, #292021);
+}
+.footer__logo img {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  order: -1;
+}
+
+.footer__texto {
+  color: var(--white);
+  padding: 0;
+  text-align: center;
+}

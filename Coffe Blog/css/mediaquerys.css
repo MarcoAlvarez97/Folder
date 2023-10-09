@@ -47,4 +47,16 @@
   .btn {
     display: inline-block;
   }
+  .footer {
+    height: 10rem;
+  }
+  .footer__logo img {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 465px) {
+  .footer {
+    height: 10rem;
+  }
 }
