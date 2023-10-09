@@ -101,7 +101,7 @@ img {
   align-items: center;
   height: 6.5rem;
   padding: 0 3rem;
-  background: linear-gradient(to bottom, #886750, #292021);
+  background: linear-gradient(to bottom, #292021, #886750);
 
   /* TODO: Acompaña la barra */
   position: fixed;
@@ -110,8 +110,8 @@ img {
 }
 
 .logo {
-  width: 6rem;
-  height: 6.2rem;
+  width: 4.4rem;
+  height: 5.25rem;
 }
 
 /** NAVEGACION **/
