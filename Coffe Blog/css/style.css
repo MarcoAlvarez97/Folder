@@ -101,7 +101,7 @@ img {
   align-items: center;
   height: 6.5rem;
   padding: 0 3rem;
-  background: linear-gradient(to bottom, #886750, #d99b5e);
+  background: linear-gradient(to bottom, #104b53, #886750, #d99b5e);
 
   /* TODO: Acompaña la barra */
   position: fixed;
