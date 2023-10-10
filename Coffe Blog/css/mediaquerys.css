@@ -92,3 +92,60 @@
     column-gap: 2rem;
   }
 }
+/**---- PAGINA CONTACTO ----**/
+@media (max-width: 768px) {
+  .contacto-bg {
+    height: 20rem;
+  }
+
+  .formulario {
+    margin: 0 auto;
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .campo {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+
+  .campo__label {
+    flex: 0 0 100%;
+    text-align: left;
+  }
+
+  .campo__field {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 0.1rem solid var(--gray);
+    border-radius: 0.2rem;
+  }
+
+  .campo__field--textarea {
+    height: 10rem;
+  }
+
+  .contacto-bg {
+    height: 50rem;
+  }
+
+  .formulario {
+    margin: -10rem auto 3rem auto;
+    width: 90%;
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contacto-bg {
+    height: 40rem;
+  }
+
+  .formulario {
+    width: 90%;
+    margin: -10rem auto 2rem auto;
+    padding: 2rem;
+  }
+}
