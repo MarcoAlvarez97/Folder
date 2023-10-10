@@ -480,6 +480,13 @@ main {
   text-align: center;
 }
 
+#contacto h3 {
+  font-family: var(--Headingfont);
+  font-weight: 700;
+  padding: 2rem 0;
+  color: var(--white);
+}
+
 .contacto-bg {
   background-image: url(../img/contacto.jpg);
   height: 40rem;

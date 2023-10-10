@@ -324,3 +324,19 @@ html {
 .beneficios-info {
   animation: fade 0.8s ease-in forwards, slide-left 0.9s ease-in-out;
 }
+
+/** ---- PAGINA CONTACTO ---- **/
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#contacto {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, scale-up-center 0.9s ease-in-out;
+}
