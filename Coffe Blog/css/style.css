@@ -8,7 +8,7 @@
   --first: #784d3c;
   --white: #ffffff;
   --black: #000000;
-  --gray: #98aeb6;
+  --gray: #b2bfc4;
   --sombreado: #9c8481;
 }
 
@@ -18,13 +18,13 @@ html {
   background: #1e130c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
-    #8b6854,
-    #1e130c
+    #104b53,
+    #fad9b9
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
-    #63493c,
-    #1e130c
+    #104b53,
+    #fad9b9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -101,7 +101,7 @@ img {
   align-items: center;
   height: 6.5rem;
   padding: 0 3rem;
-  background: linear-gradient(to bottom, #292021, #886750);
+  background: linear-gradient(to bottom, #886750, #d99b5e);
 
   /* TODO: Acompaña la barra */
   position: fixed;
@@ -270,7 +270,7 @@ main {
   align-items: center;
   height: auto;
   padding: 0 3rem;
-  background: linear-gradient(to bottom, #886750, #292021);
+  background: linear-gradient(to bottom, #fad9b9, #d99b5e);
 }
 .footer__logo img {
   margin-top: 0.5rem;
@@ -292,10 +292,6 @@ main {
 
 /** HEADER **/
 
-.navbar-nosotros {
-  background-color: ;
-}
-
 .header-nosotros {
   background: linear-gradient(to bottom, #d3b895, #abc2ba);
 }
@@ -313,6 +309,27 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+#info-nosotros h3 {
+  font-family: var(--Headingfont);
+  font-weight: 700;
+  padding: 2rem 0;
+}
+
+.sobre-nosotros {
+  display: flex;
+}
+
+.sobre-nosotros__img img {
+  border-radius: 1rem;
+  width: 90%;
+}
+
+.text-nosotros {
+  font-size: 1.8rem;
+  font-family: var(--Pfuente);
+  font-weight: 400;
 }
 
 .footer-nosotros {

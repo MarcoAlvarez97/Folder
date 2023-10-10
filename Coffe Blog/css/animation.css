@@ -218,8 +218,12 @@ html {
 }
 
 .entrada img:hover {
-  transform: scale(1.03);
+  transform: scale(1.04);
   transition: all 0.3s linear;
+}
+
+.footer__texto {
+  animation: fade 0.8s ease-in forwards, slide-right 0.9s ease-in-out;
 }
 
 /** --------PAGINA NOSOTROS -------**/
@@ -231,5 +235,20 @@ html {
 #hero-nosotros p {
   opacity: 0;
   animation: fade 0.8s ease-in forwards, blur-in-expand 0.9s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.sobre-nosotros img {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, scale-up-center 0.9s ease-in-out;
   animation-delay: 0.3s;
 }
