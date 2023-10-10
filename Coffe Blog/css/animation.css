@@ -249,6 +249,9 @@ html {
 
 .sobre-nosotros img {
   opacity: 0;
-  animation: fade 0.8s ease-in forwards, scale-up-center 0.9s ease-in-out;
-  animation-delay: 0.3s;
+  animation: fade 0.7s ease-in forwards, scale-up-center 0.9s ease-in-out;
+}
+
+.text-nosotros {
+  animation: fade 1.5s ease-in forwards, slide-right 1.2s ease-in-out;
 }
