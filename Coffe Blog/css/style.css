@@ -315,21 +315,18 @@ main {
   font-family: var(--Headingfont);
   font-weight: 700;
   padding: 2rem 0;
-}
-
-.sobre-nosotros {
-  display: flex;
+  color: var(--white);
 }
 
 .sobre-nosotros__img img {
   border-radius: 1rem;
-  width: 90%;
 }
 
 .text-nosotros {
   font-size: 1.8rem;
   font-family: var(--Pfuente);
   font-weight: 400;
+  color: var(--white);
 }
 
 .footer-nosotros {

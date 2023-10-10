@@ -255,3 +255,18 @@ html {
 .text-nosotros {
   animation: fade 1.2s ease-in forwards, slide-right 1s ease-in-out;
 }
+
+@keyframes scale-up-vertical-top {
+  0% {
+    transform: scaleY(0.4);
+    transform-origin: center top;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: center top;
+  }
+}
+
+#info-nosotros h3 {
+  animation: fade 0.8s ease-in forwards, scale-up-vertical-top 0.9s ease-in-out;
+}
