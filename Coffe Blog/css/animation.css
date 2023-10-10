@@ -320,6 +320,7 @@ html {
   animation: fade 0.8s ease-in forwards, slide-right 0.9s ease-in-out;
 }
 
-.recetas {
+.recetas,
+.beneficios-info {
   animation: fade 0.8s ease-in forwards, slide-left 0.9s ease-in-out;
 }

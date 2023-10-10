@@ -417,6 +417,7 @@ main {
 }
 
 .blog-info,
+.beneficios-info,
 .blog-recetas li {
   margin: 2rem auto;
 }
@@ -434,7 +435,8 @@ main {
   list-style-type: upper-latin;
 }
 
-.recetas {
+.recetas,
+.beneficios-info {
   width: 90%;
 }
 
@@ -444,6 +446,15 @@ main {
 }
 
 .recetas:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
+
+.beneficios-info {
+  margin-bottom: 2rem;
+}
+
+.beneficios-info:last-of-type {
   border: none;
   margin-bottom: 0;
 }
