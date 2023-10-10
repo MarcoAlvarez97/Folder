@@ -202,6 +202,9 @@ main {
 
 .entrada img {
   border-radius: 1rem;
+  -webkit-box-shadow: -7px 1px 24px -1px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: -7px 1px 24px -1px rgba(0, 0, 0, 0.76);
+  box-shadow: -7px 1px 24px -1px rgba(0, 0, 0, 0.76);
 }
 
 /** BOTON  **/
@@ -331,4 +334,68 @@ main {
 
 .footer-nosotros {
   background: linear-gradient(to bottom, #abc2ba, #d3b895);
+}
+
+/** -------- PAGINA CURSOS ----------- **/
+
+#hero-cursos {
+  background-image: url("../img/banner-cursos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60rem;
+  width: 100%;
+  color: #fffefe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#card-cursos h3 {
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.curso {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  background: #abc2ba;
+  border-radius: 0.625rem;
+  gap: 2rem;
+  margin: 2rem 0;
+  -webkit-box-shadow: -7px 1px 24px -1px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: -7px 1px 24px -1px rgba(0, 0, 0, 0.76);
+  box-shadow: -7px 1px 24px -1px rgba(0, 0, 0, 0.76);
+}
+
+.curso__img {
+  margin: 0 2rem;
+}
+
+.curso__img img {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.curso__label {
+  font-family: var(--Headingfont);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.curso__info {
+  font-weight: 400;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.curso__label,
+.curso__info {
+  font-size: 2rem;
+}
+.curso__info h4 {
+  margin-bottom: 1rem;
 }

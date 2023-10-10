@@ -82,3 +82,13 @@
     flex-basis: calc(50% - 1rem);
   }
 }
+
+/**--------- PAGINA CURSOS ----------**/
+
+@media (min-width: 768px) {
+  .curso {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+  }
+}

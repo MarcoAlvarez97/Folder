@@ -228,11 +228,13 @@ html {
 
 /** --------PAGINA NOSOTROS -------**/
 
-#hero-nosotros h2 {
+#hero-nosotros h2,
+#hero-cursos h2 {
   animation: fade 0.8s ease-in forwards, blur-in-expand 0.9s ease-in-out;
 }
 
-#hero-nosotros p {
+#hero-nosotros p,
+#hero-cursos p {
   opacity: 0;
   animation: fade 0.8s ease-in forwards, blur-in-expand 0.9s ease-in-out;
   animation-delay: 0.3s;
@@ -269,4 +271,36 @@ html {
 
 #info-nosotros h3 {
   animation: fade 0.8s ease-in forwards, scale-up-vertical-top 0.9s ease-in-out;
+}
+
+/**----- PAGINA CURSOS ----**/
+
+#card-cursos h3 {
+  opacity: 0;
+  animation: fade 0.7s ease-in forwards, scale-up-center 0.9s ease-in-out;
+}
+
+.curso {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slide-left 0.9s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+.curso:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.curso:nth-child(3) {
+  animation-delay: 0.7s;
+}
+.curso:last-of-type {
+  animation-delay: 0.9s;
+}
+
+.curso {
+  transition: all 0.3s linear;
+}
+
+.curso:hover {
+  transform: scale(1.03);
+  transition: all 0.3s linear;
 }
