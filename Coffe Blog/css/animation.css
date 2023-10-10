@@ -304,3 +304,22 @@ html {
   transform: scale(1.03);
   transition: all 0.3s linear;
 }
+
+/**---- PAGINA ENTRADA ----**/
+#blog h3 {
+  opacity: 0;
+  animation: fade 0.7s ease-in forwards, scale-up-center 0.9s ease-in-out;
+}
+
+#blog img {
+  opacity: 0;
+  animation: fade 0.7s ease-in forwards, scale-up-center 0.9s ease-in-out;
+}
+
+.blog-info {
+  animation: fade 0.8s ease-in forwards, slide-right 0.9s ease-in-out;
+}
+
+.recetas {
+  animation: fade 0.8s ease-in forwards, slide-left 0.9s ease-in-out;
+}

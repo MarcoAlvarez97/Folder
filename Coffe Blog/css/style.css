@@ -399,3 +399,51 @@ main {
 .curso__info h4 {
   margin-bottom: 1rem;
 }
+
+/**--------- PAGINA ENTRADA ---------**/
+
+#blog h3 {
+  margin: 2rem 0;
+}
+
+#blog img {
+  border-radius: 1rem;
+}
+
+.text-inicio {
+  font-weight: bold;
+  font-family: var(--Pfuente);
+  font-size: 2rem;
+}
+
+.blog-info,
+.blog-recetas li {
+  margin: 2rem auto;
+}
+
+.blog-recetas span {
+  font-weight: bold;
+}
+
+.blog-info__style {
+  list-style-type: initial;
+  padding-left: 3rem;
+}
+.order-style {
+  padding-left: 4rem;
+  list-style-type: upper-latin;
+}
+
+.recetas {
+  width: 90%;
+}
+
+.recetas {
+  border-bottom: 0.1rem solid var(--black);
+  margin-bottom: 2rem;
+}
+
+.recetas:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
