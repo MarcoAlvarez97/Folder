@@ -253,5 +253,5 @@ html {
 }
 
 .text-nosotros {
-  animation: fade 1.5s ease-in forwards, slide-right 1.2s ease-in-out;
+  animation: fade 1.2s ease-in forwards, slide-right 1s ease-in-out;
 }
