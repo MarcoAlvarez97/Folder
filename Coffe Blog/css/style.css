@@ -220,6 +220,7 @@ main {
   font-weight: 700;
   margin-bottom: 2rem;
   border-radius: 1rem;
+  border: none;
 }
 .btn--primario {
   background-color: var(--black);
@@ -227,6 +228,9 @@ main {
 
 .btn--secundario {
   background-color: #271f20;
+}
+.btn:hover {
+  cursor: pointer;
 }
 
 /** SIDEBAR **/
@@ -457,4 +461,55 @@ main {
 .beneficios-info:last-of-type {
   border: none;
   margin-bottom: 0;
+}
+
+/**---- PAGINA CONTACTO ----**/
+
+#hero-contacto {
+  background-image: url("../img/banner-contact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60rem;
+  width: 100%;
+  color: #fffefe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contacto-bg {
+  background-image: url(../img/contacto.jpg);
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+
+.formulario {
+  background-color: #efefef;
+  margin: -5rem auto 5rem auto;
+  width: 95%;
+  padding: 5rem;
+  border-radius: 0.5rem;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+.campo__label {
+  flex: 0 0 9rem;
+  text-align: right;
+}
+
+.campo__field {
+  flex: 1;
+  border: 0.1rem solid var(--gray);
+}
+.campo__field--textarea {
+  height: 20rem;
 }
