@@ -158,6 +158,14 @@ main {
 
 /** HERO **/
 
+.webp #hero {
+  background-image: url(../img/banner.webp);
+}
+
+.no-webp #hero {
+  background-image: url(../img/banner.jpg);
+}
+
 #hero {
   background-image: url(../img/banner.jpg);
   background-size: cover;
