@@ -284,18 +284,17 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: auto;
   padding: 0 3rem;
   background: linear-gradient(to bottom, #fad9b9, #d99b5e);
 }
 .footer__logo img {
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   max-width: 100%;
   order: -1;
 }
 
 .footer__texto {
+  margin-top: 1rem;
   color: var(--white);
   padding: 0;
   text-align: center;
@@ -528,4 +527,57 @@ main {
 }
 .campo__field--textarea {
   height: 20rem;
+}
+
+/**---- LOGIN ----**/
+
+.login {
+  background: linear-gradient(to bottom, #96a4d3, #242948);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-login {
+  background: linear-gradient(to bottom, #242948, #96a4d3);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 75vh;
+}
+
+.form__title {
+  margin-bottom: 3rem;
+  color: #f2e9e2;
+}
+
+.form__input {
+  padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+  border-radius: 0.8rem;
+  background-color: #252525;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+
+.btn--login {
+  margin-top: 2rem;
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-family: var(--Headingfont);
+  color: var(--white);
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  background: linear-gradient(90deg, #40aba4, #024744);
+}
+
+.footer-login {
+  background: linear-gradient(to bottom, #242948, #96a4d3);
+  margin-top: auto;
 }

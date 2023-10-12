@@ -149,3 +149,12 @@
     padding: 2rem;
   }
 }
+
+/**---- LOGIN ---- **/
+@media (max-width: 768px) {
+  .navbar-login {
+    background: #c97d59;
+    border: 2px solid #2db48c;
+    border-top: 0;
+  }
+}

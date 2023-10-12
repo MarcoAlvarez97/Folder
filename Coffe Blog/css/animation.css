@@ -106,7 +106,7 @@ html {
 }
 
 .logo:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
   transition: all 0.3s linear;
 }
 
@@ -124,6 +124,9 @@ html {
   }
   .navbar-list-nosotros a:hover {
     background-color: #b8c9c4;
+  }
+  .navbar-login a:hover {
+    background-color: #ccac94;
   }
 }
 
@@ -184,6 +187,11 @@ html {
 .btn--primario:hover,
 .btn--secundario:hover {
   background-color: var(--sombreado);
+  transition: all 0.5s ease;
+}
+
+.btn--login:hover {
+  background-color: #fde6c4;
   transition: all 0.5s ease;
 }
 
@@ -342,6 +350,13 @@ html {
 }
 
 #contacto {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, scale-up-center 0.9s ease-in-out;
+}
+
+/** -- LOGIN -- **/
+
+.form {
   opacity: 0;
   animation: fade 0.8s ease-in forwards, scale-up-center 0.9s ease-in-out;
 }

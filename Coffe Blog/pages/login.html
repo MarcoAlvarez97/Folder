@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      crossorigin="crossorigin"
+      as="font-awesome"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      crossorigin="crossorigin"
+      as="font"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preload" href="../css/style.css" as="style" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preload" href="../css/mediaquerys.css" as="style" />
+    <link rel="stylesheet" href="../css/mediaquerys.css" />
+    <link rel="preload" href="../css/animation.css" as="style" />
+    <link rel="stylesheet" href="../css/animation.css" />
+
+    <title>Login</title>
+  </head>
+
+  <body class="login">
+    <header class="header header-login">
+      <a class="logo" href="../index.html"
+        ><img src="../img/logo-coffe-p.png" alt="Logotipo" />
+      </a>
+      <nav class="navbar">
+        <label for="navbar__toggle" class="menu">
+          <i class="fa-solid fa-bars fa-xl menu-icon"></i>
+        </label>
+        <input type="checkbox" id="navbar__toggle" />
+
+        <ul class="navbar__list navbar-login">
+          <li>
+            <a href="../pages/login.html" class="navbar__link navbar__link"
+              >Login</a
+            >
+          </li>
+          <li>
+            <a
+              href="../pages/register.html"
+              class="navbar__link navbar__register"
+              >Register</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <form class="form">
+        <h2 class="form__title">Iniciar Sesión</h2>
+
+        <input type="email" placeholder="Email" class="form__input" />
+
+        <input type="password" placeholder="Password" class="form__input" />
+
+        <a href="../pages/inicio.html" class="btn btn--login">Ingresar</a>
+      </form>
+    </main>
+    <footer class="footer footer-login">
+      <a class="logo footer__logo" href="../index.html"
+        ><img src="../img/logo-coffe-p.png" alt="Logotipo" />
+      </a>
+      <p class="footer__texto">
+        WebWizarHub - Todos los Derechos Reservados 2023 ©
+      </p>
+    </footer>
+  </body>
+</html>
