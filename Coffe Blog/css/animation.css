@@ -213,11 +213,16 @@ html {
   animation-delay: 0.7s;
 }
 
-.entrada img {
+.entrada__img picture,
+.entrada__img img {
   transition: all 0.3s linear;
 }
 
-.entrada img:hover {
+.entrada__img img:hover {
+  transform: scale(1.04);
+  transition: all 0.3s linear;
+}
+.entrada__img picture:hover {
   transform: scale(1.04);
   transition: all 0.3s linear;
 }
