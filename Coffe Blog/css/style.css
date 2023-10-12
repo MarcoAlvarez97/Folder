@@ -163,11 +163,11 @@ main {
 }
 
 .no-webp #hero {
-  background-image: url(../img/banner.jpg);
+  background-image: url(../img/banner-p.jpg);
 }
 
 #hero {
-  background-image: url(../img/banner.jpg);
+  background-image: url(../img/banner-p.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
