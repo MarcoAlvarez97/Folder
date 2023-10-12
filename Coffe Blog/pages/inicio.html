@@ -40,9 +40,6 @@
     <link rel="stylesheet" href="../css/mediaquerys.css" />
     <link rel="preload" href="../css/animation.css" as="style" />
     <link rel="stylesheet" href="../css/animation.css" />
-    <link rel="preload" href="../img/blog1.jpg" as="image" />
-    <link rel="preload" href="../img/blog2.jpg" as="image" />
-    <link rel="preload" href="../img/blog3.jpg" as="image" />
   </head>
   <body>
     <!--? HEADER -->
@@ -100,6 +97,13 @@
           <!-- PRIMER ARTICULO -->
           <article class="entrada">
             <div class="entrada__img">
+              <picture>
+                <source
+                  loading="lazy"
+                  srcset="../img/blog1.webp"
+                  type="image/webp"
+                />
+              </picture>
               <img src="../img/blog1.jpg" alt="Imagen de blog" loading="lazy" />
             </div>
 
@@ -118,6 +122,13 @@
           <!-- SEGUNDO ARTICULO -->
           <article class="entrada">
             <div class="entrada__img">
+              <picture>
+                <source
+                  loading="lazy"
+                  srcset="../img/blog2.webp"
+                  type="image/webp"
+                />
+              </picture>
               <img src="../img/blog2.jpg" alt="Imagen de blog" loading="lazy" />
             </div>
 
@@ -136,6 +147,13 @@
           <!-- TERCER ARTICULO -->
           <article class="entrada">
             <div class="entrada__img">
+              <picture>
+                <source
+                  loading="lazy"
+                  srcset="../img/blog3.webp"
+                  type="image/webp"
+                />
+              </picture>
               <img src="../img/blog3.jpg" alt="Imagen de blog" loading="lazy" />
             </div>
 

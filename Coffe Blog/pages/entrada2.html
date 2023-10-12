@@ -40,7 +40,6 @@
     <link rel="stylesheet" href="../css/mediaquerys.css" />
     <link rel="preload" href="../css/animation.css" as="style" />
     <link rel="stylesheet" href="../css/animation.css" />
-    <link rel="preload" href="../img/blog2.jpg" as="image" />
   </head>
   <body id="nosotros-page">
     <!--? HEADER -->
@@ -87,8 +86,11 @@
 
       <section id="blog" class="container">
         <h3 class="text-center">Tres Deliciosas Recetas de Café</h3>
+        <picture>
+          <source loading="lazy" srcset="../img/blog2.webp" type="image/webp" />
+        </picture>
 
-        <img src="../img/blog2.webp" alt="img blog 2" />
+        <img src="../img/blog2.webp" alt="img blog 2" loading="lazy" />
 
         <p class="blog-info text-inicio">
           Aquí te dejo tres recetas de café famosas y deliciosas:

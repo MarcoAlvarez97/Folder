@@ -40,7 +40,6 @@
     <link rel="stylesheet" href="../css/mediaquerys.css" />
     <link rel="preload" href="../css/animation.css" as="style" />
     <link rel="stylesheet" href="../css/animation.css" />
-    <link rel="preload" href="../img/blog1.jpg" as="image" />
   </head>
   <body id="nosotros-page">
     <!--? HEADER -->
@@ -88,7 +87,11 @@
       <section id="blog" class="container">
         <h3 class="text-center">Tipos de Grano de Café</h3>
 
-        <img src="../img/blog1.webp" alt="img blog 1" />
+        <picture>
+          <source loading="lazy" srcset="../img/blog1.webp" type="image/webp" />
+        </picture>
+
+        <img src="../img/blog1.webp" alt="img blog 1" loading="lazy" />
 
         <p class="blog-info">
           Existen varias variedades de granos de café cultivados en diferentes

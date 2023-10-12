@@ -40,7 +40,6 @@
     <link rel="stylesheet" href="../css/mediaquerys.css" />
     <link rel="preload" href="../css/animation.css" as="style" />
     <link rel="stylesheet" href="../css/animation.css" />
-    <link rel="preload" href="../img/blog3.jpg" as="image" />
   </head>
   <body id="nosotros-page">
     <!--? HEADER -->
@@ -89,7 +88,11 @@
       <section id="blog" class="container">
         <h3 class="text-center">Beneficios del Café</h3>
 
-        <img src="../img/blog3.webp" alt="img blog 2" />
+        <picture>
+          <source loading="lazy" srcset="../img/blog3.webp" type="image/webp" />
+        </picture>
+
+        <img src="../img/blog3.webp" alt="img blog 2" loading="lazy" />
 
         <p class="blog-info text-inicio">
           Aquí te dejo los beneficios del Café:
