@@ -39,7 +39,7 @@ html {
 body {
   font-family: var(--Pfuente);
   font-size: 1.6rem;
-  line-height: 2;
+  line-height: 1;
 }
 
 /** GLOBALES **/
